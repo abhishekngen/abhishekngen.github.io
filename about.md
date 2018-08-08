@@ -13,5 +13,7 @@ sitemap:
 
 I'm a 17 year old computer enthusiast who loves to spend his spare time researching the fundamental intricacies regarding the often misunderstood world of Computer Science. After a long while, I finally thought I'd share my learnings through this blog.
 
-Provided I don't get dragged down by my A-Levels and my other commitments, I'll hopefully be able to regularly update the blog with any projects I've done, as well as any findings from my bouts of research into certain computing fields.
+Provided I don't get dragged down by my A-Levels and my other commitments, I'll hopefully be able to regularly update the blog with any projects I've done, as well as any findings from my bouts of research into certain computing fields. 
+
+Stay tuned!
 
