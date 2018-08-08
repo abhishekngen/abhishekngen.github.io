@@ -9,7 +9,7 @@ sitemap:
 ---
 ## About Me
 
-<span class="image left"><img src="{{ "/images/pic07.png" | absolute_url }}" alt="" /></span>
+<span class="image left"><img src="{{ "/images/pic07.jpg" | absolute_url }}" alt="" /></span>
 
 I'm a 17 year old computer enthusiast who loves to spend his spare time researching the fundamental intricacies regarding the often misunderstood world of Computer Science. After a long while, I finally thought I'd share my learnings through this blog.
 
