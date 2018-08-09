@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Wonders of the Turing Machine"
-date:   2018-08-06
+date:   2018-08-08
 excerpt: "The blueprint that started it all"
 image: "/images/pic08.png"
 ---
