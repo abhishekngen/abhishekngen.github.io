@@ -26,7 +26,7 @@ Naturally, however, in a real Chess game, or really any two-player zero-sum game
 
 To illustrate alpha-beta pruning I will use another tree diagram of the same depth to maintain simplicity, but also label the upper nodes with letters:
 
-<span class="image left"><img src="{{ "/images/pic11.PNG" | absolute_url }}" alt="" /></span>
+<img src = "/images/pic10.JPG" width = "350" height = "250" />
 
 It is important to recognise here that A is the node that wishes to maximise the score, and B and C are nodes that wish to minimise the score. When alpha-beta pruning is implemented, the MiniMax function will now also take in 2 extra parameters - alpha and beta, where alpha is set to -infinity, and beta to infinity. Now when the algorithm is run, it will go to the first leaf node, which in this case gives a score of -5. As B here is trying to minimise the score, if the score is less than beta, which it is, then beta is set equal to the score, and thus is set to -5. The algorithm then proceeds to the next node, which is 4; thus beta retains its value at 4. However, now we go back to A, which is trying to maximise the score. Here, it checks if the score is greater than alpha - which it is - and thus sets the value to alpha. Now it goes down to C, which is trying to minimise the score, and checks the leaf node of score -7. However, at this stage it realises that -7 is less than alpha; and thus there is *no need* to evaluate the rest of the nodes branching from C, as any board state chosen from C will have a score equal or worse to -7, which is clearly worse for White than a score of -5. And thus in this way we can ignore evaluating the final leaf node. In much larger trees, it can be clearly seen that this can eliminate entire branches. 
 
